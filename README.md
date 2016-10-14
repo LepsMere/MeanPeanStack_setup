@@ -3,6 +3,8 @@ This file will install all the necessary tools for a working P/MEAN stack enviro
 
 1. copy and clone the repository.
 
-2. run a chmod +x <file_name> to make the file an executable file
+2. with the terminal, navigate to where the repository was cloned. 
 
-3. run the file by typing ./<file_name. This should give you a menu were you decide what to install.
+3.  In the terminal, type in chmod +x install.sh to make the file/script an executable file
+
+4. run the executable by typing ./install.sh. This should give you a menu were you decide what to install.
