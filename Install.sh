@@ -35,7 +35,7 @@ do
             echo "************************************************"
             echo " "
             echo "Installing Node.js"
-            sudo apt-get install nodejs
+            sudo apt-get install nodejs nodejs-legacy
             echo ""
             echo "************************************************"
             echo "Installing the build-essential package"
@@ -48,6 +48,6 @@ do
         4)
 			echo "Update the package database"
 			echo "********* Installing git ************"
-			sudo apt-get install git-core
+			sudo apt-get install git-core git
     esac
 done
